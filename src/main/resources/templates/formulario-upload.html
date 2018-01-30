@@ -1,0 +1,26 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+	<div th:if="${message}">
+		<h2 th:text="${message}"/>
+	</div>
+
+	<div>
+		<form method="POST" enctype="multipart/form-data" action="/">
+			<table>
+				<tr><td>Arquivo para upload:</td><td><input type="file" name="arquivo" /></td></tr>
+				<tr><td></td><td><input type="submit" value="Importar" /></td></tr>
+			</table>
+		</form>
+	</div>
+
+	<div>
+		<ul>
+			<li th:each="arquivo : ${arquivos}">
+				<a th:href="${arquivo}" th:text="${arquivo}" />
+			</li>
+		</ul>
+	</div>
+
+</body>
+</html>

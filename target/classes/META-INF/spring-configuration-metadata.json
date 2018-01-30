@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "upload.armazenamento.ArmazenamentoPropriedade",
+      "name": "armazenamento",
+      "type": "upload.armazenamento.ArmazenamentoPropriedade"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "upload.armazenamento.ArmazenamentoPropriedade",
+      "name": "armazenamento.location",
+      "description": "Localização da pasta para armazenar arquivos",
+      "type": "java.lang.String"
+    }
+  ]
+}
