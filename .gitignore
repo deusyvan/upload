@@ -32,3 +32,7 @@ bin/
 rebel.xml
 .mvn*
 mvnw*
+
+target/classes/META-INF/MANIFEST.MF
+target/classes/META-INF/maven/org.springframework/gs-uploading-files/pom.properties
+
